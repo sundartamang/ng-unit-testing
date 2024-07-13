@@ -1,1 +1,5 @@
-<p>home works!</p>
+<button class="subscribe" *ngIf="!isSubscribe" 
+(click)="subscribe()">Subscribe</button>
+
+<button class="subscribe" 
+*ngIf="isSubscribe" disabled>Subscribed</button>
