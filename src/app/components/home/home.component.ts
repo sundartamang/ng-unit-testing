@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
+  marks: any = [30, 50, 70, 95]
+
   constructor() { }
 
   ngOnInit(): void {
