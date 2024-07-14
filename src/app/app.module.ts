@@ -7,12 +7,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { DataPipe } from './pipe/data.pipe';
+import { DataDirective } from './directives/data.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    DataPipe
+    DataPipe,
+    DataDirective
   ],
   imports: [
     BrowserModule,
